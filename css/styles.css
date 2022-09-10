@@ -1,0 +1,214 @@
+body { margin:0;}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/assets/nunito-sans.extralight.ttf);
+}
+
+h1,h2{
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+
+p{
+  font-family: myFistFont;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+
+
+/*Navigation- Bar*/
+
+.navbar {
+  
+  padding: 0 0 4.5rem;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+  
+  
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #FFF;
+}
+
+
+
+/*Sections*/
+
+
+.dark-section{
+  background-color: #111;
+  color: #D4ECDD;
+  height: 100vh;
+  
+  
+  
+}
+
+.colored-section{
+  background-color: #76BA99;
+  
+}
+
+.light-section{
+  background-color: #FFF;
+}
+
+
+/*Title- Section*/
+
+.main-heading{
+  font-family:'Courier New', Courier, monospace;;
+  font-weight: 900;
+  letter-spacing: -1px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #D4ECDD;
+    
+}
+
+
+
+
+
+.my-image{
+    width:300px;
+    
+    position: static;
+    align-items: center;
+    padding: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+
+.row{
+  align-items: center;
+}
+
+/*About-Me Section*/
+
+.about-me{
+  text-align: center;
+  
+  
+  width: auto;
+  
+  height: max-content;
+  padding:10%
+}
+
+.about-me h1{
+  
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 900;
+  letter-spacing: -1px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #111;
+
+}
+
+.about-me p{
+  text-align: center;
+  font-family:myFirstFont;
+  
+  font-size: 1.5rem;
+  
+  color: #111;
+
+}
+
+
+.me-graphic{
+  width:400px;
+}
+
+/*Education Section*/
+
+#education h1{
+  padding-bottom: 50px;
+}
+
+.manit{
+  text-align: center;
+  align-items: center;
+  padding: 0 50px;
+
+}
+
+.sssvv{
+  text-align: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.manit-img{
+  height:auto;
+
+  padding: 30px 100px;
+}
+
+
+.sssvv-img{
+  height: auto;
+  padding: 30px 100px;
+  
+}
+
+.card{
+  width: 25rem;
+  padding: auto 40rem;
+}
+
+.card p{
+  padding: 10px 100px;
+}
+
+
+
+
+/*Icons*/
+
+.icon{
+  color:#111;
+}
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+
+    .row{
+
+      text-align: center;
+    }
+
+    .my-image{
+      padding-top: 60px;
+      width:300px;
+      align-items: center;
+    }
+
+    #education{
+      align-items: center;
+    }
+    
+    .dark-section{
+      height:auto;
+    }
+}
