@@ -1,18 +1,22 @@
 body { margin:0;}
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: nutino-sans;
   src: url(/assets/nunito-sans.extralight.ttf);
+}
+
+@font-face {
+  font-family: anton-regular;
+  src: url(/assets/Anton-Regular.ttf);
 }
 
 h1,h2{
   text-align: center;
-  font-family:'Courier New', Courier, monospace;
-  font-weight: 900;
+  font-family:anton-regular;
 }
 
 p{
-  font-family: myFistFont;
+  font-family: nutino-sans;
 }
 
 .container-fluid{
@@ -48,10 +52,11 @@ p{
 
 
 .dark-section{
-  background-color: #111;
-  color: #D4ECDD;
-  height: 100vh;
   
+  
+  height: 100vh;
+  background-image: url("/images/philipp-pilz-AOhBMkQlzgM-unsplash.jpg"); 
+  background-size: 1300px;
   
   
 }
@@ -61,26 +66,20 @@ p{
   
 }
 
-.light-section{
-  background-color: #FFF;
-}
+
 
 
 /*Title- Section*/
 
 .main-heading{
-  font-family:'Courier New', Courier, monospace;;
-  font-weight: 900;
-  letter-spacing: -1px;
-  font-size: 3.5rem;
+  font-family:anton-regular;
+  
+  
+  font-size: 350%;
   line-height: 1.5;
-  color: #D4ECDD;
+  color: #FFF;
     
 }
-
-
-
-
 
 .my-image{
     width:300px;
@@ -99,35 +98,31 @@ p{
 
 /*About-Me Section*/
 
-.about-me{
+
+
+#about-me{
   text-align: center;
   
-  
-  width: auto;
-  
-  height: max-content;
-  padding:10%
 }
 
-.about-me h1{
+#about-me h1{
   
   text-align: center;
-  font-family:'Courier New', Courier, monospace;
-  font-weight: 900;
-  letter-spacing: -1px;
-  font-size: 3.5rem;
+  font-family:anton-regular;
+
+  font-size: 350%;
   line-height: 1.5;
-  color: #111;
+  color: #000;
 
 }
 
-.about-me p{
+#about-me p{
   text-align: center;
-  font-family:myFirstFont;
+  font-family:nutino-sans;
   
-  font-size: 1.5rem;
+  font-size: 150%;
   
-  color: #111;
+  color: #000;
 
 }
 
@@ -138,53 +133,107 @@ p{
 
 /*Education Section*/
 
-#education h1{
-  padding-bottom: 50px;
+#education{
+  padding: 60px;
 }
+
+#education h1{
+  padding: 30px ;
+}
+
+
 
 .manit{
   text-align: center;
   align-items: center;
-  padding: 0 50px;
+  padding: 3% 2%;
 
 }
 
 .sssvv{
   text-align: center;
   align-items: center;
-  padding: 0 50px;
+  padding: 3% 2%;
 }
 
 .manit-img{
-  height:auto;
+  height:100%;
 
   padding: 30px 100px;
 }
 
 
 .sssvv-img{
-  height: auto;
+  height: 100%;
   padding: 30px 100px;
   
 }
 
-.card{
-  width: 25rem;
-  padding: auto 40rem;
+
+/*Skills*/
+
+#skills{
+ padding-bottom: 10%;
 }
 
-.card p{
-  padding: 10px 100px;
+.skill-row{
+  padding: 0% 4%;
+}
+
+
+.skill-row h1{
+  padding: 10% 10%;
+}
+
+
+/*Contact*/
+
+#contact{
+ 
+  background-color: #000;
+  color:#FFF;
+  align-items: center;
+  text-align: center;
+  
+}
+
+#contact h1{
+  padding-bottom: 10%;
+  font-family:anton-regular;
+  
+  
+  font-size: 270%;
+  line-height: 1.5;
+  color: #FFF;
+
+}
+
+#contact p{
+  text-align: center;
+  font-family:nutino-sans;
+  
+  font-size: 1rem;
+  
+  color: #FFF;  
+}
+
+#contact a{
+  padding: auto 20% auto 20%;
+  margin: 5% 5%;
+}
+
+
+
+.profiles{
+  font-size: 1rem;
+  padding-top: 10%;
+  position: center;
 }
 
 
 
 
-/*Icons*/
 
-.icon{
-  color:#111;
-}
 
 
 
@@ -211,4 +260,9 @@ p{
     .dark-section{
       height:auto;
     }
+
+
+
 }
+
+

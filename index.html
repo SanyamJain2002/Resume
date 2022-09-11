@@ -11,14 +11,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
+ 
+  </head>
 
  
 </head>
@@ -49,10 +43,13 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+              <a class="nav-link" href="#about-me" >About Me</a>
+            </li>            
+            <li class="nav-item">
               <a class="nav-link" href="#education" >Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#skills">Skills & Interests</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -88,7 +85,7 @@
 
 
   <section class="colored-section">
-    <div class="about-me container-fluid">
+    <div class="container-fluid" id="about-me">
 
       <div class="row">
         
@@ -117,9 +114,9 @@
 
         <h1>Education</h1>
 
-          <div class="row">
+          <div class="edu row">
         
-            <div class="manit col-lg-6 " >
+            <div class="manit col-lg-6 col-md-12" >
               <div class="card">
 
                 <div class="card-header">
@@ -144,7 +141,7 @@
         
             </div>
 
-            <div class="sssvv col-lg-6 " >
+            <div class="sssvv col-lg-6 col-md-12" >
               <div class="card">
 
                 <div class="card-header">
@@ -179,53 +176,140 @@
     </section>
 
     <section id="skills">
+      <div class="container-fluid">
+      <div class="skill-row row">
+        <div class="col-lg-6 col-md-12">
 
-      <div class="row mt-4">
-        <div class="col-md-10 mx-auto">
+          <h1>Skills</h1>
 
-          <div class="timeline timeline-one">
-            <!-- Timeline Item 1 -->
-            <div class="timeline-item">
-              <span class="icon icon-info icon-lg"><i class="fab fa-react"></i></span>
-              <h5 class="my-3">React</h5>
-              <p>Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v laborum.</p>
+          <div class="card-columns">
+
+            <div class="card bg-light text-center p-3">
+           
+                <p>Python</p>
+       
             </div>
 
-            <div class="timeline-item">
-              <span class="icon icon-info icon-lg"><i class="fab fa-react"></i></span>
-              <h5 class="my-3">React</h5>
-              <p>Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v laborum.</p>
+
+            <div class="card bg-light text-center p-3">
+           
+                <p>HTML</p>
+       
+            </div>
+            <div class="card bg-light  text-center p-3">
+              
+                <p>CSS and Bootstrap</p>
+       
             </div>
 
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="timeline">
-        <div class="timeline-row">
-          <div class="timeline-time">
-            7:45PM<small>May 21</small>
-          </div>
-          <div class="timeline-dot fb-bg"></div>
-          <div class="timeline-content">
-            <i class="fa fa-map-marker"></i>
-            <h4>Admin theme!</h4>
-            <p>Milestone Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar, drag &amp; drop and ion slider.</p>
-            <div class="">
-              <span class="badge badge-light">Design</span>
-              <span class="badge badge-light">Admin</span>
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="card bg-light text-center p-3">
+         
+              <p>Data Structures and algorithms</p>
      
+          </div>
+          <div class="card bg-light  text-center p-3">
+        
+            <p>C/C++</p>
+   
+          </div>
+          <div class="card bg-light text-center p-3">
+           
+            <p>Linux</p>
+   
+          </div>
+
+
+        </div>
+      </div>    
+
+
+  
+
+        <div class="col-lg-6 col-md-12">
+          <h1>Interests</h1>
+            <div class="card-columns">
+              <div class="card bg-dark text-white text-center p-3">
+           
+                <p>Programming</p>
+       
+              </div>
+
+              <div class="card bg-dark text-white text-center p-3">
+           
+                <p>Competitive Coding</p>
+       
+              </div>
+
+              <div class="card bg-dark text-white text-center p-3">
+           
+              <p>Web development</p>
+     
+              </div>
+              <div class="card bg-dark text-white text-center p-3">
+           
+                <p>Business and Economics</p>
+       
+                </div>              
+              <div class="card bg-dark text-white text-center p-3">
+          
+                <p>Psychology</p>
+        
+              </div>
+              <div class="card bg-dark text-white text-center p-3">
+           
+                <p>Reading</p>
+       
+              </div>
+
+            </div>
+
+
+        </div>
+  
+
+      </div>
+
+    </div>
     </section>
 
     <section id="contact">
+      <div class="container-fluid">
+        <h1>Feel free to reach me at any time</h1>
+
+        <div class="row">
+ 
+          <div class="col-lg-12 col-md-12">
+            <p> <b> Phone: </b> +91-7000592512</p>
+            <p> <b> E-mail: </b> sanyam.jain.2002.14@gmail.com</p>
+            <p> <b> Address: </b> Chowdhran colony, Guna, M.P.</p>
+
+          </div>
+
+          <div class="profiles col-lg-12 col-md-12">
+
+            <a  href="https://www.linkedin.com/in/sanyam-jain-a8a94b222/"> LinkedIn</a>
+          
+            <a  href="https://github.com/SanyamJain2002">GitHub</a>
+            
+            <a  href="https://www.codechef.com/users/sanyam_jain_14">CodeChef</a>
+            
+            <a  href="https://codeforces.com/profile/sanyam.jain.2002.14">CodeForces</a>
+            
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
 
     </section>
+ 
+
+
+   
 
 
 </body>
